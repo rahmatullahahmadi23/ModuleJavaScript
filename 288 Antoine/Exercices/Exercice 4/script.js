@@ -6,7 +6,6 @@ else{
     document.write("Il ne fait pas si froid </br>");
 } */
 
-
 /* const formule = "abracadabra";
 if(formule === "abracadabra"){
     document.write("C'est la formule magique <br>");
@@ -15,7 +14,6 @@ else{
     document.write("Ce n'est pas la bonne formule </br>");
 }
  */
-
 
 /*
 const jourActuel = "lundi";
@@ -81,13 +79,54 @@ else {
 
  */
 
+/* let age = Number(prompt("Entrez votre age :"));
 
+if (age < 20) {
+  let ecoleObligatoire = confirm(
+    "Etes vous à l'école obligatoire (OK ou annuler) :"
+  );
+  if (ecoleObligatoire) {
+    console.log("Vous avez droit à une entrée gratuite");
+  } else {
+    console.log("Vous devez payer 10.-");
+  }
+} else {
+  if (age > 60) {
+    let activite = confirm("Etes vous en activité (OK ou Cancel) :");
+    if (activite) {
+      console.log("Vous devez payer 15.-");
+    } else {
+      console.log("Vous avez droit à une entrée gratuite");
+    }
+  } else {
+    let activite = confirm("Etes vous en activité (OK ou Cancel) :");
+    if (activite) {
+      console.log("Vous devez payer 20.-");
+    } else {
+      let etudiant = confirm("Etes vous étudiant (OK ou Cancel) :");
+      if (etudiant) {
+        console.log("Vous devez payer 15.-");
+      } else {
+        console.log("Vous devez payer 10.-");
+      }
+    }
+  }
+} */
 
-/*
-let age = 12;
-
-if(age < 20 ){
-   console.log()
-
+// The same exercice with switch method
+switch (prix) {
+  case 0:
+    console.log("Vous avez droit à une entrée gratuite");
+    break;
+  case 10:
+    console.log("Vous devez payer 10.-");
+    break;
+  case 0:
+    console.log("Vous devez payer 15.-");
+    break;
+  case 0:
+    console.log("Vous devez payer 20.-");
+    break;
+  default:
+    console.log("Il y a un bug !");
 }
-*/
